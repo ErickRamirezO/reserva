@@ -15,4 +15,4 @@ CMD while ! nc -z mysql 3306; do echo "Esperando a MySQL..."; sleep 2; done; jav
 
 
 # Exponer el puerto en el que corre la aplicación
-EXPOSE 8082
+EXPOSE 8081
