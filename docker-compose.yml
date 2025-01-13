@@ -19,7 +19,7 @@ services:
       context: .  # Aquí se asume que tienes un Dockerfile para la aplicación Spring Boot
     container_name: springboot-container
     ports:
-      - "8082:8082"  # Exposición del puerto de la aplicación Spring Boot
+      - "8081:8082"  # Exposición del puerto de la aplicación Spring Boot
     depends_on:
       - mysql  # La aplicación depende de MySQL
     environment:
